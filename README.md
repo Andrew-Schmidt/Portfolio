@@ -51,3 +51,11 @@ The dedicated `projects/speed-testing/` page includes a read-only interactive da
 **Update data:** Re-export from the monitoring server, verify the JSON includes only numerical measurements and timestamps, and replace `assets/data/speedtest/daily-summary.json` and `recent-tests.json`. Keep the filenames unchanged.
 
 **Data quality:** Source daily averages contain a small number of extreme loaded-latency values; the dashboard hides daily loaded-latency readings above 10,000 ms only for that chart. All exported measurements are retained as supplied.
+
+## Embedded HFC Calculator
+
+The `projects/hfc-calculator/` page includes a live iframe of `https://signallosscalculator.com/`, plus two real cropped screenshots. The embed is responsive and uses the original live calculation engine.
+
+**Important:** If the calculator does not appear inside the iframe but opens in a new tab, check the HFC calculator web server's response headers for `X-Frame-Options: DENY/SAMEORIGIN` or CSP `frame-ancestors`. Cross-origin iframe embedding requires the calculator site's server to explicitly permit `https://portfolio.signallosscalculator.com`; a GitHub Pages change cannot bypass the restriction. When changing the server's CSP, allow only the portfolio origin and avoid weakening framing protections for other pages. The full-site link will continue to work in all cases.
+
+Deploy by copying the contents of this ZIP to the repository root, keeping the existing `CNAME` file and GitHub Pages configuration.
