@@ -1,0 +1,1 @@
+Add real project images as <project-id>-01.png, <project-id>-02.png, and so on (up to 8 per project). Example: hfc-calculator-01.png. Never include user/customer data, API tokens or internal Mediacom screenshots.
