@@ -59,3 +59,8 @@ The `projects/hfc-calculator/` page includes a live iframe of `https://signallos
 **Important:** If the calculator does not appear inside the iframe but opens in a new tab, check the HFC calculator web server's response headers for `X-Frame-Options: DENY/SAMEORIGIN` or CSP `frame-ancestors`. Cross-origin iframe embedding requires the calculator site's server to explicitly permit `https://portfolio.signallosscalculator.com`; a GitHub Pages change cannot bypass the restriction. When changing the server's CSP, allow only the portfolio origin and avoid weakening framing protections for other pages. The full-site link will continue to work in all cases.
 
 Deploy by copying the contents of this ZIP to the repository root, keeping the existing `CNAME` file and GitHub Pages configuration.
+
+
+## Train Catalog demonstration (static GitHub Pages)
+
+The Lionel Train project page links to `projects/train-catalog/demo/`. It is a standalone HTML/CSS/JS example based on the photographed production UI, using fictional inventory illustrations and browser-memory state. No family photographs or production inventory data is included, and no changes are saved to a server.
