@@ -159,7 +159,7 @@ window.PORTFOLIO_PROJECTS = [
     "status": "Concept / v1 design",
     "summary": "A modern Linux-based MIDI playback system with tempo control and web access.",
     "problem": "An aging dedicated MIDI player motivated a serviceable replacement with modern controls.",
-    "work": "Designed a small Linux-hosted player concept centered on tempo control, browser operation, and potential physical transport buttons..",
+    "work": "Designed a small Linux-hosted player concept centered on tempo control, browser operation, and potential physical transport buttons...",
     "skills": [
       "MIDI",
       "Linux",
