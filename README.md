@@ -88,3 +88,7 @@ The canonical pages are `projects/inventory-system/` and `projects/inventory-sys
 ## Owner content editor
 
 Open `editor.html` on the published portfolio (or via a local web server). Select a project, edit fields, press **Save edits locally**, then **Download updated projects.js**. Replace the repository-root `projects.js` in GitHub and commit. No API tokens or direct GitHub write access are used. The main project pages read common text fields from `projects.js` through `project-detail-sync.js`; custom layout sections remain hand-authored in their own HTML files.
+
+
+## Creating new projects
+Open `/editor.html`, choose **Add new project**, fill out a unique URL slug, title, descriptions, skills and links. **Download updated projects.js** and replace the root `projects.js` in your repository. Select the new project, click **Download new project page** and upload its `index.html` into `projects/<slug>/index.html`. Commit both files together. This is a static publishing workflow, not direct GitHub editing. Do not put personal access tokens in the public site. The `/editor.html` route is publicly readable—only edit safe public content.
