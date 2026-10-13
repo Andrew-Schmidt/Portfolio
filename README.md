@@ -64,3 +64,12 @@ Deploy by copying the contents of this ZIP to the repository root, keeping the e
 ## Train Catalog demonstration (static GitHub Pages)
 
 The Lionel Train project page links to `projects/train-catalog/demo/`. It is a standalone HTML/CSS/JS example based on the photographed production UI, using fictional inventory illustrations and browser-memory state. No family photographs or production inventory data is included, and no changes are saved to a server.
+
+
+## Network Diagnostics Lab (live demo)
+
+The `projects/network-diagnostics/` page links to `https://diagnostics.signallosscalculator.com/`. The public-facing diagnostics app is hosted independently on AWS EC2 in demo mode. Do not expose privileged packet capture endpoints or raw PCAP files publicly.
+
+## Deployment notes
+
+Upload the **contents** of this package to the root of the `Andrew-Schmidt/Portfolio` repository, preserving nested folders. Keep the existing `CNAME` file (custom-domain setting). If GitHub's web upload doesn't replace previously tracked files, use GitHub Desktop or edit the existing file directly. Verify the GitHub Pages Actions workflow succeeds.
