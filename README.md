@@ -83,3 +83,8 @@ Public name: **Inventory Management System**. Canonical URL: `projects/inventory
 ## Inventory System URL migration
 
 The canonical pages are `projects/inventory-system/` and `projects/inventory-system/demo/`. Previous train-catalog URLs remain as simple redirect pages, so do not delete that old folder. The inventory page now looks for gallery screenshots named `assets/inventory-system-01.png`, etc.
+
+
+## Owner content editor
+
+Open `editor.html` on the published portfolio (or via a local web server). Select a project, edit fields, press **Save edits locally**, then **Download updated projects.js**. Replace the repository-root `projects.js` in GitHub and commit. No API tokens or direct GitHub write access are used. The main project pages read common text fields from `projects.js` through `project-detail-sync.js`; custom layout sections remain hand-authored in their own HTML files.
