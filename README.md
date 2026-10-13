@@ -28,7 +28,7 @@ Add screenshots to `assets/` using a project ID followed by -01.png, -02.png etc
 
 - `assets/hfc-calculator-01.png`
 - `assets/hfc-calculator-02.png`
-- `assets/train-catalog-01.png`
+- `assets/inventory-system-01.png`
 
 The corresponding project's detail page automatically displays up to eight of these images in its gallery. The hero remains a clearly labeled illustration until customized. For the index card image, set `image:'assets/hfc-calculator-01.png'` in `projects.js`.
 
@@ -63,7 +63,7 @@ Deploy by copying the contents of this ZIP to the repository root, keeping the e
 
 ## Train Catalog demonstration (static GitHub Pages)
 
-The Inventory Management System project page links to `projects/train-catalog/demo/`. It is a standalone HTML/CSS/JS example based on the photographed production UI, using fictional inventory illustrations and browser-memory state. No family photographs or production inventory data is included, and no changes are saved to a server.
+The Inventory Management System project page links to `projects/inventory-system/demo/`. It is a standalone HTML/CSS/JS example based on the photographed production UI, using fictional inventory illustrations and browser-memory state. No family photographs or production inventory data is included, and no changes are saved to a server.
 
 
 ## Network Diagnostics Lab (live demo)
@@ -78,4 +78,8 @@ Upload the **contents** of this package to the root of the `Andrew-Schmidt/Portf
 `projects/solar-lora/` contains the research-stage architecture, parts shortlist, field benefits, limitations, validation checklist, and build steps. No hardware deployment or performance results are claimed.
 
 ## Inventory project naming
-Public name: **Inventory Management System**. The URL remains `projects/train-catalog/` so existing links and its demo continue working. The demonstration uses sample items; it is not connected to the production database.
+Public name: **Inventory Management System**. Canonical URL: `projects/inventory-system/`. Legacy `projects/train-catalog/` and `projects/train-catalog/demo/` redirect to the new pages. The demonstration uses sample items; it is not connected to the production database.
+
+## Inventory System URL migration
+
+The canonical pages are `projects/inventory-system/` and `projects/inventory-system/demo/`. Previous train-catalog URLs remain as simple redirect pages, so do not delete that old folder. The inventory page now looks for gallery screenshots named `assets/inventory-system-01.png`, etc.
