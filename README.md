@@ -36,7 +36,7 @@ The corresponding project's detail page automatically displays up to eight of th
 
 The cards on the homepage are described in `projects.js`. Each dedicated project page is standalone HTML at `projects/<project-id>/index.html` and can be edited directly (title, text, demo link, technology stack). **Editing projects.js will not automatically change a dedicated detail page**, so update both when changing descriptions. This separation works with GitHub Pages and allows customized layouts.
 
-The HFC calculator points to its confirmed public site: https://signallosscalculator.com. The Lionel inventory points to a public repository, but no direct link to the family production catalog is included.
+The HFC calculator points to its confirmed public site: https://signallosscalculator.com. The Inventory Management System points to a public repository, but no direct link to the family production catalog is included.
 
 ## Safety before publishing
 
@@ -63,7 +63,7 @@ Deploy by copying the contents of this ZIP to the repository root, keeping the e
 
 ## Train Catalog demonstration (static GitHub Pages)
 
-The Lionel Train project page links to `projects/train-catalog/demo/`. It is a standalone HTML/CSS/JS example based on the photographed production UI, using fictional inventory illustrations and browser-memory state. No family photographs or production inventory data is included, and no changes are saved to a server.
+The Inventory Management System project page links to `projects/train-catalog/demo/`. It is a standalone HTML/CSS/JS example based on the photographed production UI, using fictional inventory illustrations and browser-memory state. No family photographs or production inventory data is included, and no changes are saved to a server.
 
 
 ## Network Diagnostics Lab (live demo)
@@ -73,3 +73,9 @@ The `projects/network-diagnostics/` page links to `https://diagnostics.signallos
 ## Deployment notes
 
 Upload the **contents** of this package to the root of the `Andrew-Schmidt/Portfolio` repository, preserving nested folders. Keep the existing `CNAME` file (custom-domain setting). If GitHub's web upload doesn't replace previously tracked files, use GitHub Desktop or edit the existing file directly. Verify the GitHub Pages Actions workflow succeeds.
+
+## Solar LoRa project page
+`projects/solar-lora/` contains the research-stage architecture, parts shortlist, field benefits, limitations, validation checklist, and build steps. No hardware deployment or performance results are claimed.
+
+## Inventory project naming
+Public name: **Inventory Management System**. The URL remains `projects/train-catalog/` so existing links and its demo continue working. The demonstration uses sample items; it is not connected to the production database.
