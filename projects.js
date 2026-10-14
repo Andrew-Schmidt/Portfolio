@@ -56,7 +56,7 @@ window.PORTFOLIO_PROJECTS = [
     "type": "Networking & Linux",
     "status": "Working lab setups",
     "summary": "Self-hosted video streaming setups using OBS, MediaMTX, and Linux networking.",
-    "problem": "Getting a stream from an encoder to receiving devices required diagnosing protocol configuration, routing and firewall issues.",
+    "problem": "My church built a small nursery room and some members requested the ability to hear the service while tending to their child. Because we do not have internet we needed a self hosted audio solution.",
     "work": "Configured OBS publishing to MediaMTX and worked through stream path errors, network segmentation, TCP connectivity, firewall rules and remote playback. Also developed setup documentation.",
     "skills": [
       "OBS Studio",
